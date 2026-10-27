@@ -16,11 +16,15 @@ The build uses relative paths, so `dist/` can be uploaded to any static host (Ne
 
 ## Deploy to GitHub Pages
 
-Push to the `master` branch to build and deploy the site automatically:
+For the first deployment, open the repository's **Settings → Pages** and set
+**Build and deployment → Source** to **GitHub Actions**. GitHub requires this
+one-time setting to be enabled in the repository.
+
+After that, pushes to the `master` branch build and deploy the site
+automatically:
 <https://katrinanajaru.github.io/Katrina-Najaru-Website/>.
 
-The GitHub Actions workflow builds the app and publishes `dist/`. It enables
-GitHub Pages for the repository on its first run.
+The GitHub Actions workflow builds the app and publishes `dist/`.
 
 ## Editing content
 
