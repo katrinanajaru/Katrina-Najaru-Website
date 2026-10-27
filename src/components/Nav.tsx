@@ -10,7 +10,6 @@ export const navLinks = [
   { id: 'projects', label: 'Projects' },
   { id: 'skills', label: 'Skills' },
   { id: 'education', label: 'Education' },
-  { id: 'contact', label: 'Contact' },
 ];
 
 const sectionIds = navLinks.map((l) => l.id);

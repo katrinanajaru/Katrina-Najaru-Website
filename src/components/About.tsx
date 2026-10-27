@@ -5,7 +5,7 @@ const certCount = certifications.reduce((n, g) => n + g.items.length, 0);
 
 const facts = [
   { label: 'Based in', value: profile.location },
-  { label: 'Education', value: 'BSc & Diploma in IT, JKUAT' },
+  { label: 'Education', value: 'BSc in IT, JKUAT' },
   { label: 'Focus', value: 'Data engineering, analytics & systems' },
   { label: 'Languages', value: profile.languages.join(' & ') },
 ];
@@ -25,7 +25,7 @@ export function About() {
         <div className="about-grid">
           <div className="about-text reveal">
             <p className="about-summary">{profile.summary}</p>
-            <p>
+            <p className="about-summary">
               Today I work as a Data Engineer, building the pipelines, models and dashboards that teams rely on to make
               decisions. Before that I designed a role-based project management system at the ICT Authority, ran SEO
               and digital analytics at Avané Clinic, and researched inclusive learning experiences with OWLI Africa.

@@ -614,8 +614,9 @@ em {
   }
   .portrait {
     order: -1;
-    justify-self: start;
-    max-width: 260px;
+    justify-self: center;
+    width: 80%;
+    max-width: 340px;
   }
   .portrait::before {
     inset: 12px -12px -12px 12px;
@@ -631,9 +632,6 @@ em {
 }
 
 @media (max-width: 600px) {
-  .portrait {
-    max-width: 190px;
-  }
   /* Degree is covered in Education; the floating tag only crowds the photo here. */
   .portrait-tag {
     display: none;
